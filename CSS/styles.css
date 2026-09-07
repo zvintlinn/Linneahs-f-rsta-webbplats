@@ -1,0 +1,41 @@
+header{
+    font-size: 50px;
+    text-align: center;
+    background-image: url(/images/Norrsken.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:top;
+    padding: 1px;
+}
+header a{
+    text-decoration: none;
+    color:white;
+}
+
+nav ul{
+    list-style: none;
+}
+nav li{
+    display: inline;
+}
+nav a{
+    text-decoration: none;
+    background-color: rgb(30, 90, 53);
+    color: white; 
+    padding: 5px;
+}
+nav a:hover{
+    background-color:rgb(238, 238, 233);
+    color: black ;
+}
+main{
+    background-color: rgb(238, 238, 233);
+    margin: 20px;
+    padding: 20px;
+}
+table{
+    max-width: 50%;
+}
+footer{
+    margin: 20px;
+}

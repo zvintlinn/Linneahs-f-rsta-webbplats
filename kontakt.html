@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="CSS/styles.css" />
+  </head>
+  <body>
+    <!-- SIDHUVUD -->
+    <header>
+      <a href="index.html">
+        <p class="header">Linneahs första webbplats</p>
+      </a>
+    </header>
+    <!-- NAVIGERING -->
+    <nav>
+      <ul>
+        <li><a href="index.html">Hem</a></li>
+        <li><a href="hobby.html">Mina intressen</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+      </ul>
+    </nav>
+    <main>
+      <!-- TITEL -->
+      <h1>Kontakt</h1>
+      <p>
+        Vill du veta mer om något som nämns på denna webbplats? Hör av dig till
+        mig genom formuläret nedan!
+      </p>
+      <!-- KONTAKTFORMULÄR -->
+      <form>
+        <fieldset>
+          <legend>Kontaktinfo</legend>
+          <label for="name">
+            Namn:
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="ex. Linneah Olofsson"
+              required
+            />
+          </label>
+          <br />
+          <br />
+          <label for="email">
+            E-postadress:
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="example@gmail.com"
+            />
+          </label>
+          <br />
+          <br />
+        </fieldset>
+        <fieldset>
+          <legend>Ärende</legend>
+          <p>Jag vill veta mer om:</p>
+          <input type="radio" name="info" id="horse" checked />
+          <label for="horse">Hästar</label>
+          <input type="radio" name="info" id="photo" />
+          <label for="photo">Fotografering</label>
+          <input type="radio" name="info" id="tobias" />
+          <label for="tobias">Tobiasregistret</label>
+          <br />
+          <br />
+          <label for="experience">Tidigare erfarenhet:</label>
+          <select name="experience" id="experience" required>
+            <option value="">Nybörjare</option>
+            <option>Grundläggande</option>
+            <option>1-4 år</option>
+            <option>5+ år</option>
+          </select>
+        </fieldset>
+        <br />
+        <button type="submit">Skicka</button>
+        <br />
+        <p>
+          Du kan även komma i kontakt med mig genom att skicka ett
+          <a href="mailto:liol2603@student.miun.se">mail</a>.
+        </p>
+      </form>
+    </main>
+    <!-- SIDFOT -->
+    <footer>
+      <p>
+        ©
+        <em
+          >Linneah Olofsson 2026 - <a href="kontakt.html">kontakta mig!</a></em
+        >
+      </p>
+    </footer>
+  </body>
+</html>
