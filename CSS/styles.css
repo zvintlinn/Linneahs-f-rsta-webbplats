@@ -39,3 +39,7 @@ table{
 footer{
     margin: 20px;
 }
+
+.horsepictures{
+    display: flex;
+}
