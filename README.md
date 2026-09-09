@@ -10,6 +10,8 @@ För tillfället används endast HTML och CSS på denna webbplats.
 
 ## Publiceringar
 
+Webbplatsen är publicerad på [Netlify](https://linneahs.netlify.app/) och [Github pages](https://zvintlinn.github.io)
+
 ## Svar på frågor om git
 
 **Vad är skillnaden mellan git add och git commit?**
