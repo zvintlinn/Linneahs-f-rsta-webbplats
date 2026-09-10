@@ -10,7 +10,7 @@ För tillfället används endast HTML och CSS på denna webbplats.
 
 ## Publiceringar
 
-Webbplatsen är publicerad på [Netlify](https://linneahs.netlify.app/) och [Github pages](https://zvintlinn.github.io)
+Webbplatsen är publicerad på [Netlify](https://linneahs.netlify.app/) och [Github pages]([https://zvintlinn.github.io](https://zvintlinn.github.io/Linneahs-f-rsta-webbplats/))
 
 ## Svar på frågor om git
 
