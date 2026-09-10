@@ -24,7 +24,7 @@ Branches är användbara för att utveckla koden och testa nya lösningar utan a
 
 **Vad händer rent praktiskt när man gör en merge?**
 
-När man utför en merge så läggs de ändringar man gjort i en branch till i antingen en annan branch eller till main. Det kan både handla om kod som raderats, ändrats eller lagts till.
+När man utför en merge så läggs de ändringar man gjort i en branch till i antingen en annan branch eller till main. Det kan både handla om kod som raderats, ändrats eller lagts till. Om samma rad har ändrats i båda grenarna som ska mergeas ihop så kommer en konflikt uppstå där man manuellt behöver välja vilken kod som är rätt och som ska sparas.
 
 **Vad är skillnaden mellan att pusha till GitHub och att publicera direkt på t.ex. Netlify?**
 
